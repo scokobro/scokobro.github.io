@@ -41,14 +41,14 @@ csl: /Users/USER/Documents/PANDOCfiles/csl/apa.csl
 --- 
 ```
 
-When `pandoc`/`pandoc-citeproc`(see note below) come to make my plain-text markdown document into an all-singing all-dancing `html`/`odt`/`doc` version this information tells them where to find:
+When `pandoc`/`pandoc-citeproc`\* come to make my plain-text markdown document into an all-singing all-dancing `html`/`odt`/`doc` version this information tells them where to find:
 
-**NB** this is the thing that turns citation markdown (see below, or look at `pandoc` documentation) into correctly formatted in-text citations and a fully formatted and organised bibliography. It comes with `pandoc`.
+\* this is the thing that turns citation markdown (see below, or look at `pandoc` documentation) into correctly formatted in-text citations and a fully formatted and organised bibliography. It comes with `pandoc`.
 
 * the `.bib` file with all my bibliographic material in
-* the `.csl` (citation style language - see note below) file that describes the style of citations and bibliography that I need.
+* the `.csl` (citation style language\*\*) file that describes the style of citations and bibliography that I need.
 
-**NB** CSL seems to be a very accessible alternative to the nastiness that is the `bibtex` citation style file (eeuuch!). If you need a certain style then chances are you can download it from [this site](http://editor.citationstyles.org/about/). If it's not there then you can use the online tool to create what you need.
+\*\* CSL seems to be a very accessible alternative to the nastiness that is the `bibtex` citation style file (eeuuch!). If you need a certain style then chances are you can download it from [this site](http://editor.citationstyles.org/about/). If it's not there then you can use the online tool to create what you need.
 
 In a pandoc markdown document, citations look like this
 `[@Kress:1996]` or for year-only citations, like this `[-@Kress:1996]`. There are variations on this theme and you should look at the `pandoc` documentation of full details. Basically they are the citation keys from your `.bib` database prefixed with an `@` and enclosed in square brackets.
