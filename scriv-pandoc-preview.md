@@ -21,9 +21,8 @@ The aim of this exercise - for me at least - was to find a comfortable way to be
 
 Also, being lazy, I like tedious things like formatting bibliographies to be done for me with as little input as possible. If anything, the approach I describe here is even easier that using the venerable LaTeX/bibtex combo.
 
-![Fig1. Attempt to illustrate flow][flow]
+![Fig1. Attempt to illustrate flow](https://dl.dropboxusercontent.com/u/24949891/images/Pandoc-markmon-flow.png)
 
-[flow]: https://dl.dropboxusercontent.com/u/24949891/images/Pandoc-markmon-flow.png "Attempt to illustrate flow" width=500px
 
 
 The above illustration shows, more or less how things works (as far as I know...). To simplify, you create a `pandoc` markdown document, `markmon` watches it and whenever you save it `markmon` tells `pandoc` to process it and give you an updated html preview.
@@ -74,9 +73,8 @@ It's fairly obvious what all this is I think but here's the rundown:
 So, once you've created your pandoc markdown file and decided on your options, all you have to do is type/copy your command into the terminal and you should get something like this...
 
 
-![Fig 2. Terminal response from markmon server thingy...][markmon] 
+![Fig 2. Terminal response from markmon server thingy...](https://dl.dropboxusercontent.com/u/24949891/images/markmonFunctioning.png)
 
-[markmon]: https://dl.dropboxusercontent.com/u/24949891/images/markmonFunctioning.png "Markmon is alive!" width=500px
 
 Now you're al ready to point your browser at `http://localhost:3333` (or `3000` ) and you should see your document beautifully rendered. If you used the `pandoc-citeproc` option then you should also see all your pandoc-style citations magically transformed into properly formatted citations and a full bibliography at the end.
 
@@ -110,9 +108,8 @@ So, compile your document as markdown (file ending doesn't matter really), then 
 
 Now go back to Scrivener, split your screen (horizontally? vertically?your choice!), select the empty pane and add the preview web page to your research folder by typing in the url (`http://localhost:etc etc...`)
 
-![Fig. 3 Add web page...][addmenu] 
+![Fig. 3 Add web page...](https://dl.dropboxusercontent.com/u/24949891/images/scrivener%20add%20screen.png)
 
-[addmenu]: https://dl.dropboxusercontent.com/u/24949891/images/scrivener%20add%20screen.png "TITLE" width=300px
 
 Now, you should have a split screen with your source document in one half and a fully-rendered preview in the other half. This is as close as I have managed to come yet to recreating the experience of markdown editors like [Mou](http://mouapp.com/) or [MMD Composer](http://multimarkdown.com/) for *pandoc* markdown.
 
