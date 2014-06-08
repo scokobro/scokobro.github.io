@@ -22,7 +22,7 @@ The aim of this exercise - for me at least - was to find a comfortable way to be
 Also, being lazy, I like tedious things like formatting bibliographies to be done for me with as little input as possible. If anything, the approach I describe here is even easier that using the venerable LaTeX/bibtex combo.
 
 ![Fig1. Attempt to illustrate flow](https://dl.dropboxusercontent.com/u/24949891/images/Pandoc-markmon-flow.png)
-
+Format: width=400px
 
 
 The above illustration shows, more or less how things works (as far as I know...). To simplify, you create a `pandoc` markdown document, `markmon` watches it and whenever you save it `markmon` tells `pandoc` to process it and give you an updated html preview.
@@ -42,14 +42,14 @@ csl: /Users/USER/Documents/PANDOCfiles/csl/apa.csl
 --- 
 ```
 
-When `pandoc`/`pandoc-citeproc`[^cite] come to make my plain-text markdown document into an all-singing all-dancing `html`/`odt`/`doc` version this information tells them where to find:
+When `pandoc`/`pandoc-citeproc`(see note below) come to make my plain-text markdown document into an all-singing all-dancing `html`/`odt`/`doc` version this information tells them where to find:
 
-[^cite]: this is the thing that turns citation markdown (see below, or look at `pandoc` documentation) into correctly formatted in-text citations and a fully formatted and organised bibliography. It comes with `pandoc`.
+**NB** this is the thing that turns citation markdown (see below, or look at `pandoc` documentation) into correctly formatted in-text citations and a fully formatted and organised bibliography. It comes with `pandoc`.
 
 * the `.bib` file with all my bibliographic material in
-* the `.csl` (citation style language[^csl]) file that describes the style of citations and bibliography that I need.
+* the `.csl` (citation style language - see note below) file that describes the style of citations and bibliography that I need.
 
-[^csl]: this seems to be a very accessible alternative to the nastiness that is the `bibtex` citation style file (eeuuch!). If you need a certain style then chances are you can download it from [this site](http://editor.citationstyles.org/about/). If it's not there then you can use the online tool to create what you need.
+**NB** CSL seems to be a very accessible alternative to the nastiness that is the `bibtex` citation style file (eeuuch!). If you need a certain style then chances are you can download it from [this site](http://editor.citationstyles.org/about/). If it's not there then you can use the online tool to create what you need.
 
 In a pandoc markdown document, citations look like this
 `[@Kress:1996]` or for year-only citations, like this `[-@Kress:1996]`. There are variations on this theme and you should look at the `pandoc` documentation of full details. Basically they are the citation keys from your `.bib` database prefixed with an `@` and enclosed in square brackets.
