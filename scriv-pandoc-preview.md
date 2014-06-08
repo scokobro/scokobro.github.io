@@ -4,9 +4,8 @@ This article explains how you can set up Scrivener to work as a `pandoc` editor/
 
 This is what it looks like...
 
-![Fig. 0 Left-pane is plain text pandoc markdown, right pane shows processed document][Prev]
+![Fig. 0 Left-pane is plain text pandoc markdown, right pane shows processed document](https://dl.dropboxusercontent.com/u/24949891/images/Scriv-pandoc-preview.jpg)
 
-[Prev]: https://dl.dropboxusercontent.com/u/24949891/images/Scriv-pandoc-preview.jpg width=500px
  
 ### Ingredients###
 For this recipe you will need:
