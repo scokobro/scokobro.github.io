@@ -14,7 +14,7 @@ For this recipe you will need:
 2. **pandoc** (super-duper document preparation and conversion tool. Download [here](https://github.com/jgm/pandoc/releases).)
 	* **Haskell Platform** (clever programming-language thing. Download [here](http://www.haskell.org/platform/).  You need to install this before `pandoc`. From what I remember, it's pretty big and takes a while.)
 3. **markmon** (very useful software-thingy, the key to the whole set-up.  Download [here](https://github.com/yyjhao/markmon).)
-	* **npm** (**N**ode **P**ackaged **M**odules. In order to easily install `markmon`. Download [here](https://www.npmjs.org/).)
+	* **npm** (Node Packaged Modules. In order to easily install `markmon`. Download [here](https://www.npmjs.org/).)
 	* **node.js** (In order to use `npm` and `markmon`. Download [here](http://nodejs.org/download/).)
 	
 The aim of this exercise - for me at least - was to find a comfortable way to be able to write and preview documents formatted with `pandoc` markdown. The idea being that such a document makes it easy to create nearly any file format that a publisher could dream of asking for. 
@@ -22,7 +22,6 @@ The aim of this exercise - for me at least - was to find a comfortable way to be
 Also, being lazy, I like tedious things like formatting bibliographies to be done for me with as little input as possible. If anything, the approach I describe here is even easier that using the venerable LaTeX/bibtex combo.
 
 ![Fig1. Attempt to illustrate flow](https://dl.dropboxusercontent.com/u/24949891/images/Pandoc-markmon-flow.png)
-Format: width=400px
 
 
 The above illustration shows, more or less how things works (as far as I know...). To simplify, you create a `pandoc` markdown document, `markmon` watches it and whenever you save it `markmon` tells `pandoc` to process it and give you an updated html preview.
@@ -98,9 +97,9 @@ the full path to the pandoc command. Bingo.
 
 Right, now the obvious next step. This, for me at least was to make best use of Scrivener's structured approach to writing and combine it with the benefits of working in pandoc markdown.
 
-This is probably the least satisfactory part of the setup but this is unavoidable as we need an .md file to preview and not a .scriv file so we have to `Compile...` rather than just `Save`, this adds a few seconds/mouse-clicks to the process.
+This is probably the least satisfactory part of the setup but this is unavoidable as we need an `.md` (or at leaset a plain text) file to preview and not a `.scriv` file so we have to `Compile...` rather than just `Save`, this adds a few seconds/mouse-clicks to the process.
 
-Create a blank project and write your paper in pandoc-markdown. Easy. The only adjustment you really need to make is to be aware that when you compile for markdown (an option set in the dropdown at the bottom of Scrivener's Compile panel), your document headings are automatically prefixed with the necessary number of `#`s to make them into headings at the right level.
+Create a blank project and write your paper in pandoc markdown. Easy. The only adjustment you really need to make is to be aware that when you compile for markdown (an option set in the dropdown at the bottom of Scrivener's Compile panel), your document headings are automatically prefixed with the necessary number of `#`s to make them into headings at the right level.
 
 Another things to be aware of is the possibility that the default meta-data (again set in the Compile panel) may interfere with `pandoc`,  I found it best to just delete it.
 
