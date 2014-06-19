@@ -1,0 +1,153 @@
+* {
+margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro' Helvetica, sans-serif;
+}
+
+
+body {
+  background: #fff;
+}
+
+#content{
+  position: relative;
+max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+top: 20px;
+}
+
+#main {
+  position: absolute;
+  top: 40px;
+  left: 260px;
+  width: 600px;
+}
+
+#sidebar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 180px;
+  padding: 20px 20px 0 0;
+  border-right: 1px solid #ddd;
+  text-align: right;
+}
+
+#footer{
+  background: #ddd;
+  font-size: 11px;
+  color: #aaa;
+  padding: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #3cf;
+}
+
+a:hover {
+  color: #37f;
+}
+
+#main h1 {
+  font-family: 'Contrail One', cursive;
+  font-size: 44px;
+  font-weight: normal;
+  line-height: 44px;
+  letter-spacing: -1px;
+  left: -15px;
+  position: relative;
+  border-bottom: 10px solid #ddd;
+}
+
+#main h2,h3,h4 {
+  font-family: 'Contrail One', cursive;
+}
+
+#main p {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 20px 0;
+  font-size: 20px;
+  line-height: 150%;
+  text-align:justify;
+  text-justify: auto;
+}
+
+#main ul, #main ol {
+  margin: 20px;
+}
+
+#main li {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+#main ul li {
+  list-style-type: square;
+}
+
+#sidebar h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #333;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  margin: 20px 0;
+}
+
+#sidebar li {
+  font-family: 'Source Sans Pro';
+  font-weight:300;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+#main img{
+  display:block;
+border:1px solid #ddd;
+padding: 5px;
+margin-left:auto;
+margin-right:auto;
+}
+
+p code, code{white-space:pre;
+  background:#fff;
+  font-size:.8em;line-height:1.5em;color:#555;
+  border:1px solid #ddd;
+  -moz-border-radius:0.4em;
+  -webkit-border-radius:0.4em;
+  border-radius:0.4em;
+  padding:0 .3em;margin:-1px 0}
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0;
+}
