@@ -1,4 +1,0 @@
-- [ ] get  a life
-- [ ] do some work
- - [ ] theoretical approaches
- - [ ] can I switch territories?
