@@ -2,6 +2,12 @@
     "posts": [
         
         {
+            "title": "Blog on break while I'm away",
+            "url": "http://scokobro.github.io/news/sabbatical-break/",
+            "date": "2017-12-14T12:00:00-05:00"
+        },
+        
+        {
             "title": "Capturing the content of news websites",
             "url": "http://scokobro.github.io/news/research/webgrabs/",
             "date": "2017-04-24T00:00:00-04:00"
@@ -35,12 +41,6 @@
             "title": "Selling the news in Japan",
             "url": "http://scokobro.github.io/research/oshigami/",
             "date": "2016-01-26T00:00:00-05:00"
-        },
-        
-        {
-            "title": "Blog on break while I'm away",
-            "url": "http://scokobro.github.io/news/sabbatical-break/",
-            "date": "2015-12-15T12:00:00-05:00"
         },
         
         {
