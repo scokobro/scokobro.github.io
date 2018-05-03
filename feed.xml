@@ -12,7 +12,7 @@
 &lt;p&gt;This site hasn’t been updated in quiet a while; since the summer of 2017 I have been in Washington DC, preparing and teaching a course on Japan’s Mass Media for American University. From March to September 2018 I will be on sabbatical, again in DC. It is unlikely I will have much time to prepare material for this site, unless it is related to courses I will be teaching at Ritsumeikan from autumn 2018. Consider this site in hibernation, but, I’ll be back…&lt;/p&gt;
 &lt;hr /&gt;
 </description>
-        <pubDate>Thu, 14 Dec 2017 12:00:00 -0500</pubDate>
+        <pubDate>Thu, 14 Dec 2017 12:00:00 +0900</pubDate>
         <link>http://scokobro.github.io/news/sabbatical-break/</link>
         <guid isPermaLink="true">http://scokobro.github.io/news/sabbatical-break/</guid>
       </item>
@@ -51,7 +51,7 @@
 &lt;p&gt;I started off by pinching another (more programming-talented) user’s script as I couldn’t work out how to capture more than one site and get accurate and reliable capture times in my filenames, a/synchronous stuff and javascript, yeuch…&lt;/p&gt;
 &lt;p&gt;I ended up adding a little subroutine to name and date files in a more useful way.&lt;/p&gt;
 &lt;p&gt;Here’s the script I am using, it’s adapted slightly (with a great deal of thanks to the author!) from the original &lt;code&gt;render_multi_urls.js&lt;/code&gt; on the &lt;a href=&quot;https://github.com/ariya/phantomjs/blob/master/examples/render_multi_url.js&quot;&gt;Phantom.js examples github repository&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class=&quot;sourceCode javascript&quot; id=&quot;cb1&quot;&gt;&lt;code class=&quot;sourceCode javascript&quot;&gt;&lt;a class=&quot;sourceLine&quot; id=&quot;cb1-1&quot; data-line-number=&quot;1&quot;&gt;&lt;span class=&quot;co&quot;&gt;// Render Multiple URLs to file&lt;/span&gt;&lt;/a&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb1&quot;&gt;&lt;pre class=&quot;sourceCode javascript&quot;&gt;&lt;code class=&quot;sourceCode javascript&quot;&gt;&lt;a class=&quot;sourceLine&quot; id=&quot;cb1-1&quot; data-line-number=&quot;1&quot;&gt;&lt;span class=&quot;co&quot;&gt;// Render Multiple URLs to file&lt;/span&gt;&lt;/a&gt;
 &lt;a class=&quot;sourceLine&quot; id=&quot;cb1-2&quot; data-line-number=&quot;2&quot;&gt;&lt;/a&gt;
 &lt;a class=&quot;sourceLine&quot; id=&quot;cb1-3&quot; data-line-number=&quot;3&quot;&gt;&lt;span class=&quot;st&quot;&gt;&amp;quot;use strict&amp;quot;&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;;&lt;/span&gt;&lt;/a&gt;
 &lt;a class=&quot;sourceLine&quot; id=&quot;cb1-4&quot; data-line-number=&quot;4&quot;&gt;&lt;span class=&quot;kw&quot;&gt;var&lt;/span&gt; RenderUrlsToFile&lt;span class=&quot;op&quot;&gt;,&lt;/span&gt; arrayOfUrls&lt;span class=&quot;op&quot;&gt;,&lt;/span&gt; system&lt;span class=&quot;op&quot;&gt;;&lt;/span&gt;&lt;/a&gt;
@@ -142,7 +142,7 @@
 &lt;a class=&quot;sourceLine&quot; id=&quot;cb1-89&quot; data-line-number=&quot;89&quot;&gt;    &lt;span class=&quot;kw&quot;&gt;var&lt;/span&gt; seconds &lt;span class=&quot;op&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;va&quot;&gt;currentTime&lt;/span&gt;.&lt;span class=&quot;at&quot;&gt;getSeconds&lt;/span&gt;()&lt;/a&gt;
 &lt;a class=&quot;sourceLine&quot; id=&quot;cb1-90&quot; data-line-number=&quot;90&quot;&gt;    seconds &lt;span class=&quot;op&quot;&gt;=&lt;/span&gt; (&lt;span class=&quot;st&quot;&gt;&amp;quot;00&amp;quot;&lt;/span&gt; &lt;span class=&quot;op&quot;&gt;+&lt;/span&gt; seconds).&lt;span class=&quot;at&quot;&gt;substr&lt;/span&gt;(&lt;span class=&quot;op&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;dv&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dv&quot;&gt;2&lt;/span&gt;)&lt;span class=&quot;op&quot;&gt;;&lt;/span&gt;&lt;/a&gt;
 &lt;a class=&quot;sourceLine&quot; id=&quot;cb1-91&quot; data-line-number=&quot;91&quot;&gt;    &lt;span class=&quot;cf&quot;&gt;return&lt;/span&gt; dat&lt;span class=&quot;op&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;st&quot;&gt;&amp;quot;-&amp;quot;&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;+&lt;/span&gt;mth&lt;span class=&quot;op&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;st&quot;&gt;&amp;quot;=&amp;quot;&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;+&lt;/span&gt;hours&lt;span class=&quot;op&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;st&quot;&gt;&amp;quot;-&amp;quot;&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;+&lt;/span&gt;minutes&lt;span class=&quot;op&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;st&quot;&gt;&amp;quot;-&amp;quot;&lt;/span&gt;&lt;span class=&quot;op&quot;&gt;+&lt;/span&gt;seconds&lt;span class=&quot;op&quot;&gt;;&lt;/span&gt;&lt;/a&gt;
-&lt;a class=&quot;sourceLine&quot; id=&quot;cb1-92&quot; data-line-number=&quot;92&quot;&gt;&lt;span class=&quot;op&quot;&gt;}&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;a class=&quot;sourceLine&quot; id=&quot;cb1-92&quot; data-line-number=&quot;92&quot;&gt;&lt;span class=&quot;op&quot;&gt;}&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;In retrospect it might have been more sensible to keep the capturing of the sites in separate scripts, this would have made it easier (at least in some ways) to deal with the next issue; how to schedule and execute the running of the capture script(s).&lt;/p&gt;
 &lt;p&gt;Captured images are 1024 pixels wide and generally 6000-8000 pixels tall. As I will explain later on, the difference in height affects how straightforward it is to do programmatic comparison of content. This factor and the fact that the bottom chunk of this type of webpage can go virtually unchanged for days, if not weeks, is leading me to think that it might be a good idea to crop all the images to a common size, say 1024 x 4000 or so.&lt;/p&gt;
 &lt;h2 id=&quot;scheduling-captures&quot;&gt;Scheduling captures&lt;/h2&gt;
@@ -308,7 +308,7 @@
 &lt;/ol&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Mon, 24 Apr 2017 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 24 Apr 2017 00:00:00 +0900</pubDate>
         <link>http://scokobro.github.io/news/research/webgrabs/</link>
         <guid isPermaLink="true">http://scokobro.github.io/news/research/webgrabs/</guid>
       </item>
@@ -491,7 +491,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Thu, 15 Dec 2016 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 15 Dec 2016 00:00:00 +0900</pubDate>
         <link>http://scokobro.github.io/news/software/</link>
         <guid isPermaLink="true">http://scokobro.github.io/news/software/</guid>
       </item>
@@ -526,7 +526,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 25 Nov 2016 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 25 Nov 2016 00:00:00 +0900</pubDate>
         <link>http://scokobro.github.io/news/fakeNews/</link>
         <guid isPermaLink="true">http://scokobro.github.io/news/fakeNews/</guid>
       </item>
@@ -560,9 +560,6 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&quot;http://scokobro.github.io/research/outlook/&quot;&gt;&lt;strong&gt;MIC Survey of Broadcaster Sentiment&lt;/strong&gt; · Outlook for commercial broadcasters in Japan &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/oshigami/&quot;&gt;&lt;strong&gt;Selling the news in Japan&lt;/strong&gt; · Hopefully a paper some time soon… &lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&quot;http://scokobro.github.io/research/Hazlitt/&quot;&gt;&lt;strong&gt;&lt;em&gt;Hazlitt&lt;/em&gt; article&lt;/strong&gt; · Press on my research &lt;/a&gt;
@@ -599,7 +596,7 @@
 &lt;/ol&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Thu, 21 Apr 2016 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 21 Apr 2016 00:00:00 +0900</pubDate>
         <link>http://scokobro.github.io/news/kaye/</link>
         <guid isPermaLink="true">http://scokobro.github.io/news/kaye/</guid>
       </item>
@@ -712,9 +709,6 @@
 &lt;a href=&quot;http://scokobro.github.io/research/outlook/&quot;&gt;&lt;strong&gt;MIC Survey of Broadcaster Sentiment&lt;/strong&gt; · Outlook for commercial broadcasters in Japan &lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/oshigami/&quot;&gt;&lt;strong&gt;Selling the news in Japan&lt;/strong&gt; · Hopefully a paper some time soon… &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;a href=&quot;http://scokobro.github.io/research/Hazlitt/&quot;&gt;&lt;strong&gt;&lt;em&gt;Hazlitt&lt;/em&gt; article&lt;/strong&gt; · Press on my research &lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -750,63 +744,9 @@
 &lt;/ol&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Mon, 18 Apr 2016 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 18 Apr 2016 00:00:00 +0900</pubDate>
         <link>http://scokobro.github.io/research/outlook/</link>
         <guid isPermaLink="true">http://scokobro.github.io/research/outlook/</guid>
-      </item>
-    
-      <item>
-        <title>Selling the news in Japan</title>
-        <description>&lt;p&gt;##ABSTRACT&lt;/p&gt;
-&lt;p&gt;Japan’s daily national newspapers have not undergone the drastic decline in circulation seen in other areas of the developed world, such as the UK and North America. Indeed, they seem to be putting up strong resistance against the encroachments of alternative, internet-based news sources. The tendency has been to explain this resilience by citing such factors as high levels of literacy and a ‘thirst for the written word’ and so on. This paper offers an alternative explanation; through an overview of the idiosyncratic nature of the mechanics of newspapers sales in Japan it is argued that an understanding of the nature of the home-delivery and sales network must be at the root of any explanation of the apparent success of Japan’s newspaper publishers in hanging on to subscribers. Further, it is argued that an understanding of the newspaper sales business also casts important light on the relationship between politics and the press in Japan.&lt;/p&gt;
-&lt;h3 id=&quot;status&quot;&gt;Status&lt;/h3&gt;
-&lt;p&gt;Currently rewriting.&lt;/p&gt;
-&lt;h3 id=&quot;other-relevant-material&quot;&gt;Other relevant material&lt;/h3&gt;
-&lt;p&gt;If this sounds interesting then you should also probably read this recent article:&lt;/p&gt;
-&lt;p&gt;Villi, M. and Hayashi, K. (2015). “The mission is to keep this industry intact” Digital transition in the Japanese newspaper industry. &lt;em&gt;Journalism Studies&lt;/em&gt;. &lt;a href=&quot;http://dx.doi.org/10.1080/1461670X.2015.1110499&quot;&gt;Article link&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;other-articles-in-research&quot;&gt;Other articles in ‘Research’&lt;/h2&gt;
-&lt;ul class=&quot;side-nav&quot;&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/news/research/webgrabs/&quot;&gt;&lt;strong&gt;Capturing the content of news websites&lt;/strong&gt; · Developing techniques to capture news websites programmatically. &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/outlook/&quot;&gt;&lt;strong&gt;MIC Survey of Broadcaster Sentiment&lt;/strong&gt; · Outlook for commercial broadcasters in Japan &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/oshigami/&quot;&gt;&lt;strong&gt;Selling the news in Japan&lt;/strong&gt; · Hopefully a paper some time soon… &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/Hazlitt/&quot;&gt;&lt;strong&gt;&lt;em&gt;Hazlitt&lt;/em&gt; article&lt;/strong&gt; · Press on my research &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/camangles/&quot;&gt;&lt;strong&gt;Camera angles study&lt;/strong&gt; · Book chapter &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/productivity/&quot;&gt;&lt;strong&gt;Productivity Surprises&lt;/strong&gt; · Hi-ho Hi-ho, it’s off to work we go… &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/soc-dist/&quot;&gt;&lt;strong&gt;Social Distance Portrayed&lt;/strong&gt; · &lt;em&gt;Visual Communication&lt;/em&gt; paper &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/dtv/&quot;&gt;&lt;strong&gt;At the Digital Watershed: Terrestrial Television Broadcasting in Japan&lt;/strong&gt; · &lt;em&gt;Japanese Studies&lt;/em&gt; paper &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/bankaccounts/&quot;&gt;&lt;strong&gt;How many is enough?&lt;/strong&gt; · Bank Accounts in Japan &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/nhk-licence-fees/&quot;&gt;&lt;strong&gt;NHK announces licence fee payment rates&lt;/strong&gt; · Television licenses &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/phd/&quot;&gt;&lt;strong&gt;Reading news images in Japan: Visual semiosis in the context of television representation.&lt;/strong&gt; · PhD Thesis &lt;/a&gt;
-&lt;/li&gt;
-&lt;li class=&quot;text-right&quot;&gt;
-&lt;a href=&quot;http://scokobro.github.io/blog/archive/&quot;&gt;&lt;strong&gt;Blog&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 26 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://scokobro.github.io/research/oshigami/</link>
-        <guid isPermaLink="true">http://scokobro.github.io/research/oshigami/</guid>
       </item>
     
       <item>
@@ -897,7 +837,7 @@
 &lt;p&gt;YOU are responsible for your participation in this course, I will &lt;em&gt;not&lt;/em&gt; remind you to attend class and I will &lt;em&gt;not&lt;/em&gt; remind to hand in work on time.&lt;/p&gt;
 &lt;hr /&gt;
 </description>
-        <pubDate>Tue, 01 Dec 2015 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 01 Dec 2015 00:00:00 +0900</pubDate>
         <link>http://scokobro.github.io/classes/xcc/</link>
         <guid isPermaLink="true">http://scokobro.github.io/classes/xcc/</guid>
       </item>
@@ -970,7 +910,7 @@
 &lt;p&gt;Details will be given in class as adjustments need to made depending on the number of students enrolled. You will be provided with a rubric for both these pieces of work.&lt;/p&gt;
 &lt;hr /&gt;
 </description>
-        <pubDate>Tue, 01 Dec 2015 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 01 Dec 2015 00:00:00 +0900</pubDate>
         <link>http://scokobro.github.io/classes/miwp/</link>
         <guid isPermaLink="true">http://scokobro.github.io/classes/miwp/</guid>
       </item>
@@ -990,9 +930,6 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&quot;http://scokobro.github.io/research/outlook/&quot;&gt;&lt;strong&gt;MIC Survey of Broadcaster Sentiment&lt;/strong&gt; · Outlook for commercial broadcasters in Japan &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;http://scokobro.github.io/research/oshigami/&quot;&gt;&lt;strong&gt;Selling the news in Japan&lt;/strong&gt; · Hopefully a paper some time soon… &lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&quot;http://scokobro.github.io/research/Hazlitt/&quot;&gt;&lt;strong&gt;&lt;em&gt;Hazlitt&lt;/em&gt; article&lt;/strong&gt; · Press on my research &lt;/a&gt;
@@ -1023,9 +960,64 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 24 Nov 2015 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 24 Nov 2015 00:00:00 +0900</pubDate>
         <link>http://scokobro.github.io/research/Hazlitt/</link>
         <guid isPermaLink="true">http://scokobro.github.io/research/Hazlitt/</guid>
+      </item>
+    
+      <item>
+        <title>Camera angles study</title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;ABSTRACT&lt;/h2&gt;
+&lt;p&gt;This chapter uses the ‘camera angle’ semiotic resource to investigate the difficulties inherent in the academic analysis of television news images. On one hand they are the products of media organisations, routinised commercial work and professional norms and understandings of the necessities of the presentation of visual narratives, on the other hand they can be seen as the raw material of ‘viewing’. To perhaps oversimplify, news images are a communicative interface between producers and viewers; however if the academic understanding and analysis of news images derives primarily from the standpoint of the viewer then we run the risk of misinterpreting the motivations and intentions of the image-maker. We assume that, when viewing news, the viewer is engaged in understanding a piece of communication about the world. I would argue that we cannot be certain that this is balanced by communicative intent on the part of the image-maker.&lt;/p&gt;
+&lt;p&gt;I review academic approaches to the understanding of ‘camera angles’ and investigate how these ideas align with samples of news images taken from Japan and the UK. I suggest that without an understanding of the imperatives of production many semiotically marked images will be misinterpreted as ‘meaningful’ where the intention behind their creation, in the particular form observed, is better understood as being primarily pragmatic.&lt;span class=&quot;citation&quot; data-cites=&quot;KB:2015&quot;&gt;(Koga-Browes, 2015)&lt;/span&gt;&lt;/p&gt;
+&lt;!--Koga-Browes, S. P. (2015). Camera angles in television news: Designed to communicate? In Piazza, R., Haarman, L., and Caborn, A., editors, *Values and Choices in Television Discourse: A View from Both Sides of the Screen*. Palgrave Macmillan, London.--&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.palgrave.com/jp/book/9781137478467&quot;&gt;Palgrave Book page&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;other-articles-in-research&quot;&gt;Other articles in ‘Research’&lt;/h2&gt;
+&lt;ul class=&quot;side-nav&quot;&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://scokobro.github.io/news/research/webgrabs/&quot;&gt;&lt;strong&gt;Capturing the content of news websites&lt;/strong&gt; · Developing techniques to capture news websites programmatically. &lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://scokobro.github.io/research/outlook/&quot;&gt;&lt;strong&gt;MIC Survey of Broadcaster Sentiment&lt;/strong&gt; · Outlook for commercial broadcasters in Japan &lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://scokobro.github.io/research/Hazlitt/&quot;&gt;&lt;strong&gt;&lt;em&gt;Hazlitt&lt;/em&gt; article&lt;/strong&gt; · Press on my research &lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://scokobro.github.io/research/camangles/&quot;&gt;&lt;strong&gt;Camera angles study&lt;/strong&gt; · Book chapter &lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://scokobro.github.io/research/productivity/&quot;&gt;&lt;strong&gt;Productivity Surprises&lt;/strong&gt; · Hi-ho Hi-ho, it’s off to work we go… &lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://scokobro.github.io/research/soc-dist/&quot;&gt;&lt;strong&gt;Social Distance Portrayed&lt;/strong&gt; · &lt;em&gt;Visual Communication&lt;/em&gt; paper &lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://scokobro.github.io/research/dtv/&quot;&gt;&lt;strong&gt;At the Digital Watershed: Terrestrial Television Broadcasting in Japan&lt;/strong&gt; · &lt;em&gt;Japanese Studies&lt;/em&gt; paper &lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://scokobro.github.io/research/bankaccounts/&quot;&gt;&lt;strong&gt;How many is enough?&lt;/strong&gt; · Bank Accounts in Japan &lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://scokobro.github.io/research/nhk-licence-fees/&quot;&gt;&lt;strong&gt;NHK announces licence fee payment rates&lt;/strong&gt; · Television licenses &lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://scokobro.github.io/research/phd/&quot;&gt;&lt;strong&gt;Reading news images in Japan: Visual semiosis in the context of television representation.&lt;/strong&gt; · PhD Thesis &lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&quot;text-right&quot;&gt;
+&lt;a href=&quot;http://scokobro.github.io/blog/archive/&quot;&gt;&lt;strong&gt;Blog&lt;/strong&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;reference&quot; class=&quot;unnumbered&quot;&gt;Reference&lt;/h2&gt;
+&lt;div id=&quot;refs&quot; class=&quot;references&quot;&gt;
+&lt;div id=&quot;ref-KB:2015&quot;&gt;
+&lt;p&gt;Koga-Browes, S. P. (2015). Camera angles in television news: Designed to communicate? In R. Piazza, L. Haarman, &amp;amp; A. Caborn (Eds.), &lt;em&gt;Values and choices in television discourse: A view from both sides of the screen&lt;/em&gt;. London: Palgrave Macmillan.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 15 Oct 2015 00:00:00 +0900</pubDate>
+        <link>http://scokobro.github.io/research/camangles/</link>
+        <guid isPermaLink="true">http://scokobro.github.io/research/camangles/</guid>
       </item>
     
   </channel>
